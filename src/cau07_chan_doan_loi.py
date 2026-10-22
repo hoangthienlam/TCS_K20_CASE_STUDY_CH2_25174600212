@@ -1,0 +1,9 @@
+ma_may = input("Nhập mã máy: ")
+cong_suat_w = float(input("Nhập công suất W: "))
+so_phut = int(input("Nhập số phút: "))
+dien_nang_kwh = cong_suat_w * so_phut / 60 / 1000
+print(f"Máy: {ma_may}")
+print(f"Điện năng: {dien_nang_kwh:.3f} kWh")
+
+#dong 2 sai kieu du lieu float
+#dong 6, mo ngoac khong dong ngoac, sai dien_nang
